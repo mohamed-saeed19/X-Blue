@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>منصة Blue التعليمية</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm p-0"
+    >
+      <div class="container-fluid p-0">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/Frame 2.svg" alt="Blue منصة تعليمية" height="90"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">الدورات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#"> محاضرات مجانية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">المدربون</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">إنجازات مشتركينا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">عن المنصه </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link3" href="#"> خطوات الإشتراك </a>
+            </li>
+            <button class="btn btn-primary">تسجيل دخول</button>
+            <li class="nav-item">
+              <a class="nav-link nav-link3" href="#"> انشاء حساب</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="hero-section text-white py-5"
+      style="background-color: #2454a4; position: relative"
+    >
+      <div class="container position-relative">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <span class="d-flex justify-content-between align-items-center">
+              <h2
+                class="fw-bold my-3"
+                style="text-shadow: #f5f8fa 0px 0px 10px"
+              >
+                مرحبًا بك في منصتنا التعليمية
+              </h2>
+              <div class="rounded-circle imageContiner bg-light p-3">
+                <img
+                  class="p"
+                  src="./assets/Frame 2.svg"
+                  alt="Blue منصة تعليمية"
+                  height="90"
+                />
+              </div>
+            </span>
+            <h4 class="mb-4">
+              بوابتك نحو التعلم والتطوير في أي وقت ومن أي مكان.
+            </h4>
+            <p style="font-weight: 400; font-size: large">
+              نقدم لك تجربة تعليمية متكاملة تجمع بين الدروس التفاعلية <br />
+              ، الفيديوهات التعليمية، الاختبارات، والمحتوى المصمم بعناية
+              <br />
+              ليناسب جميع المستويات. <br />
+              سواء كنت طالبًا، معلمًا، أو مهتمًا بتطوير مهاراتك، ستجد هنا كل
+              <br />
+              ما تحتاجه لتحقيق أهدافك التعليمية
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="#">
+                <img
+                  src="assets/booking.svg"
+                  alt="book"
+                  width="243px"
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img
+              src="./assets/study.svg"
+              alt="تعلم أونلاين"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-center align-items-center mt-5 gap-1"
+        >
+          <div class="timer">0</div>
+          <div class="timer">0</div>
+          <div class="column">:</div>
+          <div class="timer">0</div>
+          <div class="timer">0</div>
+          <div class="column">:</div>
+          <div class="timer">0</div>
+          <div class="timer">0</div>
+          <div class="column">:</div>
+          <div class="timer">0</div>
+          <div class="timer">0</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Cards -->
+    <section class="bg-light py-4">
+      <div class="container">
+        <div class="row g-3 justify-content-center">
+          <div class="col-6 col-md-3">
+            <div class="card shadow text-center">
+              <div class="card-body">
+                <i class="bi bi-journal-code fs-2 mb-2 text-primary"></i>
+                <h4 class="mb-0">12,345</h4>
+                <p class="text-muted small">دورة</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card shadow text-center">
+              <div class="card-body">
+                <i class="bi bi-person-lines-fill fs-2 mb-2 text-primary"></i>
+                <h4 class="mb-0">4,591</h4>
+                <p class="text-muted small">مدرب</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card shadow text-center">
+              <div class="card-body">
+                <i class="bi bi-mortarboard fs-2 mb-2 text-primary"></i>
+                <h4 class="mb-0">20,953</h4>
+                <p class="text-muted small">طالب</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card shadow text-center">
+              <div class="card-body">
+                <i class="bi bi-inbox fs-2 mb-2 text-primary"></i>
+                <h4 class="mb-0">14,179</h4>
+                <p class="text-muted small">محاضرة</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center fw-bold">الدورات</h2>
+        <p class="text-center text-muted mb-5">
+          دورات تعليمية مخصصة تساعدك على الفهم والتطبيق بإحترافية وسهولة
+        </p>
+        <div class="row g-4">
+          <!-- Repeat for each course -->
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="course1.png" class="card-img-top" alt="دورة" />
+              <div class="card-body text-center">
+                <h5 class="card-title">دورة البرمجة الشاملة</h5>
+                <span class="badge bg-primary mb-2">مبتدئ</span>
+                <p class="card-text small text-muted">مدة: شهر واحد</p>
+                <p class="card-text text-primary fw-bold">500 ريال</p>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a href="#" class="btn btn-outline-primary btn-sm w-100"
+                  >تفاصيل</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Repeat this block for more courses (change data as needed) -->
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="course2.png" class="card-img-top" alt="دورة" />
+              <div class="card-body text-center">
+                <h5 class="card-title">دورة التصميم الجرافيكي</h5>
+                <span class="badge bg-success mb-2">متوسط</span>
+                <p class="card-text small text-muted">مدة: شهرين</p>
+                <p class="card-text text-primary fw-bold">650 ريال</p>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a href="#" class="btn btn-outline-primary btn-sm w-100"
+                  >تفاصيل</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- ...more courses as needed -->
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="course3.png" class="card-img-top" alt="دورة" />
+              <div class="card-body text-center">
+                <h5 class="card-title">دورة الإدارة الحديثة</h5>
+                <span class="badge bg-warning text-dark mb-2">متقدم</span>
+                <p class="card-text small text-muted">مدة: أسبوعين</p>
+                <p class="card-text text-primary fw-bold">300 ريال</p>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a href="#" class="btn btn-outline-primary btn-sm w-100"
+                  >تفاصيل</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm">
+              <img src="course4.png" class="card-img-top" alt="دورة" />
+              <div class="card-body text-center">
+                <h5 class="card-title">دورة التسويق الرقمي</h5>
+                <span class="badge bg-info text-dark mb-2">مبتدئ</span>
+                <p class="card-text small text-muted">مدة: شهر</p>
+                <p class="card-text text-primary fw-bold">450 ريال</p>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a href="#" class="btn btn-outline-primary btn-sm w-100"
+                  >تفاصيل</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center fw-bold">المدربون</h2>
+        <p class="text-center text-muted mb-5">
+          يقدم الدورات نخبة من المدربين المتخصصين ذوي الخبرة
+        </p>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-3 text-center">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="trainer1.jpg"
+                class="card-img-top rounded-circle mx-auto mt-3"
+                style="width: 120px; height: 120px; object-fit: cover"
+                alt="مدرب"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">د. خالد يوسف</h5>
+                <p class="card-text small text-muted mb-1">مدرب برمجة</p>
+                <p class="card-text small text-muted">8 سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for more trainers -->
+          <div class="col-md-3 text-center">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="trainer2.jpg"
+                class="card-img-top rounded-circle mx-auto mt-3"
+                style="width: 120px; height: 120px; object-fit: cover"
+                alt="مدرب"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">د. محمد أحمد</h5>
+                <p class="card-text small text-muted mb-1">مدرب تصميم</p>
+                <p class="card-text small text-muted">6 سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="trainer3.jpg"
+                class="card-img-top rounded-circle mx-auto mt-3"
+                style="width: 120px; height: 120px; object-fit: cover"
+                alt="مدرب"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">د. سامي العبدالله</h5>
+                <p class="card-text small text-muted mb-1">مدرب إدارة</p>
+                <p class="card-text small text-muted">10 سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="trainer4.jpg"
+                class="card-img-top rounded-circle mx-auto mt-3"
+                style="width: 120px; height: 120px; object-fit: cover"
+                alt="مدرب"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">د. فهد حسين</h5>
+                <p class="card-text small text-muted mb-1">مدرب تسويق</p>
+                <p class="card-text small text-muted">7 سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform Features Section -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <h2 class="mb-3 fw-bold">منصة Blue التعليمية</h2>
+        <p class="mb-5 text-muted">
+          منصة تعليمية تقدم دورات متنوعة بأسلوب يناسبك على يد مدربين محترفين
+        </p>
+        <div class="row g-4">
+          <div class="col-6 col-md">
+            <div
+              class="feature-icon bg-primary bg-opacity-10 text-primary rounded-3 p-3 mb-2 mx-auto"
+              style="width: 64px"
+            >
+              <i class="bi bi-clock fs-2"></i>
+            </div>
+            <h6>مرونة الوقت</h6>
+          </div>
+          <div class="col-6 col-md">
+            <div
+              class="feature-icon bg-primary bg-opacity-10 text-primary rounded-3 p-3 mb-2 mx-auto"
+              style="width: 64px"
+            >
+              <i class="bi bi-laptop fs-2"></i>
+            </div>
+            <h6>متابعة أونلاين</h6>
+          </div>
+          <div class="col-6 col-md">
+            <div
+              class="feature-icon bg-primary bg-opacity-10 text-primary rounded-3 p-3 mb-2 mx-auto"
+              style="width: 64px"
+            >
+              <i class="bi bi-people fs-2"></i>
+            </div>
+            <h6>مجتمع تعليمي</h6>
+          </div>
+          <div class="col-6 col-md">
+            <div
+              class="feature-icon bg-primary bg-opacity-10 text-primary rounded-3 p-3 mb-2 mx-auto"
+              style="width: 64px"
+            >
+              <i class="bi bi-shield-check fs-2"></i>
+            </div>
+            <h6>شهادات معتمدة</h6>
+          </div>
+          <div class="col-6 col-md">
+            <div
+              class="feature-icon bg-primary bg-opacity-10 text-primary rounded-3 p-3 mb-2 mx-auto"
+              style="width: 64px"
+            >
+              <i class="bi bi-chat-dots fs-2"></i>
+            </div>
+            <h6>دعم فني</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-4 mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <img src="LOGO.png" alt="Blue Logo" height="35" class="mb-2" />
+            <p class="mb-0 small mt-2">
+              منصة تعليمية تقدم دورات تفيد الجميع وتساعد على تطوير المهارات
+              للطلاب والموظفين في مختلف المجالات، مما يوفر تعلمًا إلكترونيًا
+              شاملاً من محترفين.
+            </p>
+          </div>
+          <div class="col-md-3 mt-4 mt-md-0">
+            <h6>روابط سريعة</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">الرئيسية</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">الدورات</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >عن المنصة</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">المدربين</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0">
+            <h6>تابعنا</h6>
+            <a href="#" class="text-white fs-4 me-2"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-white fs-4 me-2"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" class="text-white fs-4 me-2"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="text-center mt-3 small">
+          حقوق النشر محفوظة &copy; منصة Blue التعليمية
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
