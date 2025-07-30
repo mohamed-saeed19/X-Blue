@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>منصة Blue التعليمية</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm p-0"
+    >
+      <div class="container-fluid p-0">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/Frame 2.svg" alt="Blue منصة تعليمية" height="90"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link nav-link2 active" href="#">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">الدورات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#"> محاضرات مجانية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">المدربون</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">إنجازات مشتركينا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="#">عن المنصه </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link3" href="#"> خطوات الإشتراك </a>
+            </li>
+            <button class="btn btn-primary">تسجيل دخول</button>
+            <li class="nav-item">
+              <a class="nav-link nav-link3" href="#"> انشاء حساب</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="hero-section text-white py-5"
+      style="background-color: #2454a4; position: relative"
+    >
+      <div class="container position-relative">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <span class="d-flex justify-content-between align-items-center">
+              <h2
+                class="fw-bold my-3"
+                style="text-shadow: #f5f8fa 0px 0px 10px"
+              >
+                مرحبًا بك في منصتنا التعليمية
+              </h2>
+              <div class="rounded-circle imageContiner bg-light p-3">
+                <img
+                  class="p"
+                  src="./assets/Frame 2.svg"
+                  alt="Blue منصة تعليمية"
+                  height="90"
+                />
+              </div>
+            </span>
+            <h4 class="mb-4">
+              بوابتك نحو التعلم والتطوير في أي وقت ومن أي مكان.
+            </h4>
+            <p style="font-weight: 400; font-size: large">
+              نقدم لك تجربة تعليمية متكاملة تجمع بين الدروس التفاعلية <br />
+              ، الفيديوهات التعليمية، الاختبارات، والمحتوى المصمم بعناية
+              <br />
+              ليناسب جميع المستويات. <br />
+              سواء كنت طالبًا، معلمًا، أو مهتمًا بتطوير مهاراتك، ستجد هنا كل
+              <br />
+              ما تحتاجه لتحقيق أهدافك التعليمية
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="#">
+                <img
+                  src="assets/booking.svg"
+                  alt="book"
+                  width="243px"
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img
+              src="./assets/study.svg"
+              alt="تعلم أونلاين"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-center align-items-center mt-5 gap-1"
+        >
+          <div class="timer">0</div>
+          <div class="timer">0</div>
+          <div class="column">:</div>
+          <div class="timer">0</div>
+          <div class="timer">0</div>
+          <div class="column">:</div>
+          <div class="timer">0</div>
+          <div class="timer">0</div>
+          <div class="column">:</div>
+          <div class="timer">0</div>
+          <div class="timer">0</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Cards -->
+    <section class="bg-light py-4">
+      <div class="container">
+        <div class="row g-5 justify-content-center">
+          <div class="col-6 col-md-3">
+            <div class="card1 shadow text-center">
+              <div class="card-body">
+                <img src="./assets/cap.svg" alt="cap" />
+                <h4 class="mb-0">+14,979</h4>
+                <p class="text-muted small">مشترك</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card1 shadow text-center">
+              <div class="card-body">
+                <img src="./assets/time.svg" alt="time" />
+                <h4 class="mb-0">+24,347</h4>
+                <p class="text-muted small">ساعة تدريبية</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card1 shadow text-center">
+              <div class="card-body">
+                <img src="./assets/book.svg" alt="book" />
+                <h4 class="mb-0">+4,591</h4>
+                <p class="text-muted small">ملزمة و تجميعة</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card1 shadow text-center">
+              <div class="card-body">
+                <img src="./assets/video.svg" alt="video" />
+                <h4 class="mb-0">+ 13,968</h4>
+                <p class="text-muted small">فيديو</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <div class="d-flex justify-content-center align-items-center mt-3">
+      <img src="./assets/line.svg" alt="line" />
+    </div>
+    <section class="py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center main-text">الدورات</h2>
+        <p class="text-center mb-5 sub-text">
+          دورات تعليمية مخصصة تساعدك على الفهم <br />
+          والتطبيق بإحترافية وسهولة
+        </p>
+        <div class="row g-4">
+          <!-- Repeat for each course -->
+          <div class="col-md-3">
+            <div class="card h-100 radius shadow-sm">
+              <img src="./assets/card1.svg" class="card-img-top" alt="دورة" />
+              <div class="card-body">
+                <h5 class="title-card">دورة الفيزياء للصف الاول الثانوي</h5>
+                <div class="d-flex align-items-center gap-1">
+                  <img src="./assets/character.svg" alt="character" />
+                  <p class="mb-0 small-size">عدد الاشتراكات 1054</p>
+                </div>
+                <div class="d-flex align-items-center gap-1">
+                  <img src="./assets/laptop.svg" alt="laptop" />
+                  <p class="mb-0 small-size">عدد المقاعد المتاحه 80</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">250 ج.م</p>
+                  <p class="price-line">400ج.م</p>
+                  <button class="btn subs">
+                    اشترك <img src="./assets/mouse.svg" alt="mouse" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat this block for more courses (change data as needed) -->
+          <div class="col-md-3">
+            <div class="card h-100 radius shadow-sm">
+              <img src="./assets/card1.svg" class="card-img-top" alt="دورة" />
+              <div class="card-body">
+                <h5 class="title-card">دورة الفيزياء للصف الاول الثانوي</h5>
+                <div class="d-flex align-items-center gap-1">
+                  <img src="./assets/character.svg" alt="character" />
+                  <p class="mb-0 small-size">عدد الاشتراكات 1054</p>
+                </div>
+                <div class="d-flex align-items-center gap-1">
+                  <img src="./assets/laptop.svg" alt="laptop" />
+                  <p class="mb-0 small-size">عدد المقاعد المتاحه 80</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">250 ج.م</p>
+                  <p class="price-line">400ج.م</p>
+                  <button class="btn subs">
+                    اشترك <img src="./assets/mouse.svg" alt="mouse" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ...more courses as needed -->
+          <div class="col-md-3">
+            <div class="card h-100 radius shadow-sm">
+              <img src="./assets/card1.svg" class="card-img-top" alt="دورة" />
+              <div class="card-body">
+                <h5 class="title-card">دورة الفيزياء للصف الاول الثانوي</h5>
+                <div class="d-flex align-items-center gap-1">
+                  <img src="./assets/character.svg" alt="character" />
+                  <p class="mb-0 small-size">عدد الاشتراكات 1054</p>
+                </div>
+                <div class="d-flex align-items-center gap-1">
+                  <img src="./assets/laptop.svg" alt="laptop" />
+                  <p class="mb-0 small-size">عدد المقاعد المتاحه 80</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">250 ج.م</p>
+                  <p class="price-line">400ج.م</p>
+                  <button class="btn subs">
+                    اشترك <img src="./assets/mouse.svg" alt="mouse" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card h-100 radius shadow-sm">
+              <img src="./assets/card1.svg" class="card-img-top" alt="دورة" />
+              <div class="card-body">
+                <h5 class="title-card">دورة الفيزياء للصف الاول الثانوي</h5>
+                <div class="d-flex align-items-center gap-1">
+                  <img src="./assets/character.svg" alt="character" />
+                  <p class="mb-0 small-size">عدد الاشتراكات 1054</p>
+                </div>
+                <div class="d-flex align-items-center gap-1">
+                  <img src="./assets/laptop.svg" alt="laptop" />
+                  <p class="mb-0 small-size">عدد المقاعد المتاحه 80</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">250 ج.م</p>
+                  <p class="price-line">400ج.م</p>
+                  <button class="btn subs">
+                    اشترك <img src="./assets/mouse.svg" alt="mouse" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="d-flex justify-content-center align-items-center mt-3">
+      <img src="./assets/line.svg" alt="line" />
+    </div>
+    <!--  Section -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center main-text">المدربون</h2>
+        <p class="text-center sub-text mb-5">
+          يقدم الدورات نخبة من المدربين المتخصصين <br />ذوي الخبرة
+        </p>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-3 text-center">
+            <div class="card border-0 bg-transparent">
+              <img
+                src="./assets/teacher.svg"
+                class="card-img-top mx-auto"
+                alt="مدرب"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">د. خالد يوسف</h5>
+                <p class="card-text small text-muted mb-1">مدرب برمجة</p>
+                <p class="card-text small text-muted">8 سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for more  -->
+          <div class="col-md-3 text-center">
+            <div class="card border-0 bg-transparent">
+              <img
+                src="./assets/teacher.svg"
+                class="card-img-top mx-auto"
+                alt="مدرب"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">د. خالد يوسف</h5>
+                <p class="card-text small text-muted mb-1">مدرب برمجة</p>
+                <p class="card-text small text-muted">8 سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card border-0 bg-transparent">
+              <img
+                src="./assets/teacher.svg"
+                class="card-img-top mx-auto"
+                alt="مدرب"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">د. خالد يوسف</h5>
+                <p class="card-text small text-muted mb-1">مدرب برمجة</p>
+                <p class="card-text small text-muted">8 سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card border-0 bg-transparent">
+              <img
+                src="./assets/teacher.svg"
+                class="card-img-top mx-auto"
+                alt="مدرب"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">د. خالد يوسف</h5>
+                <p class="card-text small text-muted mb-1">مدرب برمجة</p>
+                <p class="card-text small text-muted">8 سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="d-flex justify-content-center align-items-center mt-3">
+      <img src="./assets/line.svg" alt="line" />
+    </div>
+    <!-- Platform Features Section -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <h2
+          class="mb-5 main-text d-flex justify-content-center align-items-center"
+        >
+          منصة
+          <img
+            src="./assets/Frame 2.svg"
+            class="my-auto"
+            alt="Blue منصة تعليمية"
+            height="90"
+          />
+          التعليمية
+        </h2>
+        <p class="mb-5 sub-text">
+          منصة تعليمية تقدم دورات متنوعة بأسلوب <br />يناسبك على يد مدربين
+          محترفين
+        </p>
+        <div class="row g-4">
+          <div class="col-6 col-md">
+            <div class="feature-icon">
+              <img
+                class="inner-icon"
+                src="./assets/license.svg"
+                alt="license"
+              />
+              <h6 class="mt-3">الرخصة المهنية</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md">
+            <div class="feature-icon">
+              <img class="inner-icon" src="./assets/brain.svg " alt="brain" />
+              <h6 class="mt-3">القدرة المعرفية</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md">
+            <div class="feature-icon">
+              <img class="inner-icon" src="./assets/cap2.svg" alt="license" />
+              <h6 class="mt-3">قدرات الجامعيين</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md">
+            <div class="feature-icon">
+              <img class="inner-icon" src="./assets/world.svg" alt="world" />
+              <h6 class="mt-3">STEP</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md">
+            <div class="feature-icon">
+              <img class="inner-icon" src="./assets/ilets.svg" alt="IELTS" />
+              <h6 class="mt-3">IELTS</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md">
+            <div class="feature-icon">
+              <img class="inner-icon" src="./assets/cup.svg" alt="cup" />
+              <h6 class="mt-3">القدرات والتحصيلي</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md">
+            <div class="feature-icon">
+              <img class="inner-icon" src="./assets/brain.svg" alt="brain" />
+              <h6 class="mt-3">الدورات التطويرية</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white py-4 mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3 mt-4 mt-md-0">
+            <h6
+              style="
+                color: #ee0201;
+                font-weight: 700;
+                font-style: Bold;
+                font-size: 24px;
+                line-height: 28px;
+              "
+            >
+              روابط هامة
+            </h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none">الرئيسية</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">الدورات</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">المدربون</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">عن المنصة</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">اتصل بنا</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0">
+            <h6>تابعنا</h6>
+            <a href="#" class="text-white fs-4 me-2"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-white fs-4 me-2"
+            ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="text-white fs-4 me-2"
+              ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
+              <div class="col-md-5 d-flex flex-column align-items-center">
+                <img
+                  src="./assets/Frame 2.svg"
+                  alt="Blue Logo"
+                  height="142"
+                  class="mb-2"
+                />
+                <p
+                  class="mb-0 mt-2"
+                  style="
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 24px;
+                    line-height: 27px;
+                    letter-spacing: -4%;
+                    color: #ee0201;
+                  "
+                >
+                  نقدم لك تجربة تعليمية متكاملة تجمع بين الدروس التفاعلية، الفيديوهات التعليمية، الاختبارات، والمحتوى المصمم بعناية ليناسب جميع المستويات. سواء كنت طالبًا، معلمًا، أو مهتمًا بتطوير مهاراتك، ستجد هنا كل ما تحتاجه لتحقيق أهدافك التعليمية
+                </p>
+              </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
