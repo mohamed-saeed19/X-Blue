@@ -183,3 +183,20 @@ font-style: normal;
 font-size: 20px;
 line-height: 27px;
 }
+@media (max-width: 991.98px) {
+  .imageContiner {
+    display: none !important;
+  }
+  footer{
+    border-radius: 0;
+    border: none;
+  }
+  .main1{
+    width: 100%;
+    text-align: center;
+  }
+  .welcome{
+     width: 100%;
+    text-align: center;
+  }
+}
