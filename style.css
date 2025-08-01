@@ -243,3 +243,102 @@ footer ul li {
     margin-top: 1rem;
   }
 }
+
+
+/* Login Page Styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.login-heading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 55px;
+  line-height: 27px;
+  color: #1666C4;
+}
+
+.input-group-wrapper {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background-color: #2a41e826;
+  border: 1px solid #dee2e6;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem 0;
+  margin-block: 30px;
+  width: 80%;
+}
+
+.input-group-wrapper.password {
+  justify-content: space-between;
+}
+
+.input-group-icon {
+  display: flex;
+  align-items: center;
+  padding: 12px 11px;
+}
+
+.input-group-icon img {
+  height: 26.67px;
+}
+
+.input-group-wrapper input {
+  border: none;
+  background-color: transparent;
+  padding: 12px 11px;
+  flex: 1;
+  height: 100%;
+}
+
+.input-group-wrapper input.email-input {
+  border-radius: 0 15px 15px 0;
+}
+
+.input-group-wrapper input.password-input {
+  border-radius: 15px 0 0 15px;
+}
+
+.login-button {
+  width: 80%;
+  background-color: #1666C4;
+  color: white;
+  border-radius: 15px;
+  height: 65px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.forgot-password-container {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.forgot-password-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.signup-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  font-style: bold;
+}
+
+.signup-link {
+  color: #1666C4;
+}
+
+@media (max-width: 767.98px) {
+  .login-form-container {
+    width: 100%;
+  }
+}
