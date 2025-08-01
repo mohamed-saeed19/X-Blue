@@ -122,6 +122,15 @@ footer ul li {
   text-align: center;
   color: #1666c4;
 }
+.sub-text2 {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -4%;
+  text-align: center;
+  color: #1666c4;
+}
 
 .title-card {
   font-weight: 400;
