@@ -197,21 +197,6 @@ footer ul li {
   line-height: 27px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 991.98px) {
   .imageContiner {
     display: none !important;
@@ -337,8 +322,83 @@ footer ul li {
   color: #1666C4;
 }
 
+/* Registration Page Styles */
+
+.register-illustration {
+    width: 80%;
+    max-width: 400px;
+}
+
+.register-title {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.register-form {
+    background: #fff;
+    border-radius: 24px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 24px #0001;
+}
+
+.register-input-group {
+    background: #e9f0ff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+}
+
+.register-input {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 1.1rem;
+    padding: 16px 12px;
+}
+
+.register-input:focus {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.register-input-icon {
+    background: transparent;
+    border: none;
+    color: #1666C4;
+    font-size: 1.3rem;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.register-btn {
+    background: #1666C4;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #0002;
+    height: 56px;
+}
+
+.register-btn:hover {
+    background: #2454a4;
+}
+
+.register-login-link {
+    font-size: 1rem;
+}
+
 @media (max-width: 767.98px) {
   .login-form-container {
     width: 100%;
+  }
+  .main-image{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 }
